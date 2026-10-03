@@ -1,78 +1,126 @@
-Sales Performance Dashboard
-An interactive Excel-based sales analytics dashboard designed to summarize sales performance, profitability, product contribution, customer performance, regional results, and sales trends over time.
-Project Overview
-This project presents a business-focused sales dashboard built in Microsoft Excel. It brings together order-level sales data, summary tables, PivotTables, PivotCharts, and a dedicated KPI summary to support practical sales reporting and business performance analysis.
-The workbook contains sales records dated January 5, 2026, through April 15, 2026. The included data appears to be sample or training data; it should not be interpreted as verified real-world company performance.
-Dashboard Components
-- Sales Performance Overview: High-level summary of sales, cost, profit, quantity sold, and average sales per order.
-- Sales Trend Analysis: Line chart for exploring sales movement across order dates.
-- Regional Sales Analysis: Comparison of sales across Dhaka, Chattogram, Khulna, Rajshahi, and Sylhet.
-- Customer Sales Analysis: Comparison of sales totals across customers to help identify major contributors.
-- Product Sales Analysis: Breakdown of sales by product, including Laptop, Monitor, Printer, Keyboard, Mouse, and Headset.
-- PivotTables and PivotCharts: Supporting summaries by region, customer, product, and month.
-- KPI / Measures Summary: A worksheet containing key metric values for reporting.
-Key Features
-- Excel dashboard with multiple charts
-- Sales and profitability KPI summary
-- Sales trend visualization by order date
-- Regional performance comparison
+
+# Business Sales Performance Dashboard
+
+An interactive Excel-based sales analytics dashboard designed to monitor sales performance, profitability, product contribution, customer performance, regional results, and sales trends over time.
+
+## Project Overview
+
+This project presents a business-focused sales dashboard developed using Microsoft Excel. It combines structured sales data, KPI summaries, PivotTables, and PivotCharts to support sales reporting and business performance analysis.
+
+The dashboard provides insights into sales trends, regional performance, customer contributions, product sales, and profitability to help users understand business performance through interactive-style visual reporting.
+
+The workbook contains sales records dated January 5, 2026, through April 15, 2026. The data appears to be sample or training data and should not be interpreted as verified real-world company performance.
+
+## Dashboard Components
+
+- **Sales Performance Overview:** Summary of total sales, total cost, total profit, quantity sold, average sales per order, and profit percentage.
+- **Sales Trend Analysis:** Visualizes sales movement over the reporting period.
+- **Regional Sales Analysis:** Compares sales performance across different regions.
+- **Customer Sales Analysis:** Identifies customer-level sales contributions.
+- **Product Sales Analysis:** Examines sales performance across individual products.
+- **Monthly Sales Analysis:** Summarizes sales performance by month.
+- **PivotTables and PivotCharts:** Supports detailed analysis of regional, customer, product, and monthly sales.
+- **KPI Summary:** Presents key business performance indicators.
+
+## Key Features
+
+- Excel-based sales performance dashboard
+- Sales, cost, and profit KPI summaries
+- Sales trend visualization
+- Regional sales comparison
 - Customer-level sales analysis
 - Product contribution analysis
-- Monthly sales summary
-- Supporting PivotTables and PivotCharts
-- Structured order-level dataset
-- Portfolio-ready business intelligence use case
-Tools Used
+- Monthly performance summaries
+- PivotTables and PivotCharts
+- Structured sales dataset
+- Business-focused data visualization
+- Portfolio-ready business intelligence project
+
+## Tools Used
+
 - Microsoft Excel
 - Excel Tables
 - PivotTables
 - PivotCharts
-- Dashboard visualization
-- Sales KPI calculations
-- Data summarization and business analysis
-Data Model and Workbook Structure
+- KPI calculations
+- Data summarization
+- Sales performance analysis
+- Business intelligence reporting
+
+## Workbook Structure
+
 The workbook contains the following worksheets:
-- Sales Data 1: First source-data sheet.
-- Sales Data 2: Second source-data sheet.
-- Sales Data: Combined sales table used for the main summaries.
-- PivotTables and PivotCharts: Supporting regional, customer, product, and monthly summaries, plus charts.
-- DAX Measures: A worksheet listing KPI names and their displayed values. The presence of this worksheet alone does not establish that the workbook contains an actual Power BI data model or executable DAX measures.
-- Dashboard: Main visual dashboard containing sales trend, regional sales, customer sales, and product sales charts.
-Main Data Fields
-The sales table includes:
-- Order ID
-- Order Date
-- Region
-- Customer
-- Product
-- Quantity
-- Sales Amount
-- Cost
-- Profit
-Key Metrics in the Workbook
-The current KPI summary displays the following values:
-Metric	Displayed value
-Total Sales	2,492,000
-Total Cost	1,869,000
-Total Profit	623,000
-Total Quantity	160
-Average Sales per Order	62,300
-Profit Percentage	25%
 
+- **Sales Data 1:** First source-data sheet.
+- **Sales Data 2:** Second source-data sheet.
+- **Sales Data:** Combined sales table used for reporting and analysis.
+- **PivotTables and PivotCharts:** Supporting analytical summaries and visualizations.
+- **DAX Measures:** Worksheet containing KPI names and displayed values.
+- **Dashboard:** Main dashboard presenting sales trends, regional sales, customer sales, and product sales.
 
-These values are reproduced from the workbook's existing summary. Validate the source ranges and aggregation logic before using them in a business report, especially if the underlying data is updated.
-Analytical Questions
-The dashboard can help explore questions such as:
+> Note: The presence of a worksheet named `DAX Measures` does not establish that executable DAX measures or a Power BI data model are implemented in the workbook.
+
+## Data Fields
+
+The main sales dataset includes the following fields:
+
+- `Order ID`
+- `Order Date`
+- `Region`
+- `Customer`
+- `Product`
+- `Quantity`
+- `Sales Amount`
+- `Cost`
+- `Profit`
+
+## Key Performance Indicators (KPIs)
+
+The existing KPI summary displays the following values:
+
+| Metric | Displayed Value |
+|---|---:|
+| Total Sales | 2,492,000 |
+| Total Cost | 1,869,000 |
+| Total Profit | 623,000 |
+| Total Quantity | 160 |
+| Average Sales per Order | 62,300 |
+| Profit Percentage | 25% |
+
+These values reflect the workbook's existing summary and should be validated against the intended source data and aggregation logic before publication.
+
+## Business Questions Addressed
+
+The dashboard is designed to help explore the following questions:
+
 - How do sales change over the reporting period?
 - Which regions contribute the most to total sales?
-- Which products account for the largest share of sales?
+- Which products generate the highest sales?
 - Which customers contribute the most revenue?
-- How do sales, cost, and profit relate to one another?
-- How does monthly sales performance vary?
-Project Purpose
-This project was created as a Data Analyst / Business Intelligence portfolio project to demonstrate spreadsheet-based reporting, KPI summarization, PivotTable analysis, chart design, and business-oriented analytical storytelling.
-Important Notes and Validation
-- The workbook appears to contain sample or training data. No real company or customer performance should be inferred from it without verified provenance.
-- The workbook includes two source sheets and a combined Sales Data sheet. The records and repeated order IDs should be reviewed to confirm whether the sheets represent separate datasets, alternative versions, or overlapping records.
-- The reported KPI totals are based on the workbook's existing summary and should be checked against the intended source table before publication.
-- The dashboard is an Excel dashboard, not a Power BI report. Power BI, Power Query, and executable DAX are not claimed as implemented tools based on this workbook alone.
+- What is the relationship between sales, cost, and profit?
+- How does sales performance vary across months?
+- Which areas may require further business analysis?
+
+## Project Purpose
+
+This project was developed as a **Data Analyst / Business Intelligence portfolio project** to demonstrate practical skills in spreadsheet-based analytics, KPI reporting, data summarization, PivotTable analysis, dashboard design, and business-oriented analytical storytelling.
+
+It showcases how structured sales data can be transformed into meaningful visual summaries that support business performance monitoring and decision-making.
+
+## Data Quality and Validation Notes
+
+- The workbook appears to use sample or training data; its real-world provenance has not been established.
+- The relationship between `Sales Data 1`, `Sales Data 2`, and the combined `Sales Data` worksheet should be verified.
+- Repeated order IDs should be investigated to determine whether they represent multiple order lines, overlapping records, or duplicates.
+- KPI totals should be reconciled with the intended source table.
+- Profit percentage and average sales per order should be checked against their calculation definitions.
+- The reporting period and date-based summaries should be validated before using the dashboard for business decisions.
+
+## Conclusion
+
+The Sales Performance Dashboard demonstrates the application of Microsoft Excel to business intelligence and sales analytics. By combining KPI summaries, sales trends, and breakdowns by region, customer, product, and month, the project provides a structured approach to exploring sales performance and communicating business insights.
+
+**Project Category:** Data Analytics | Business Intelligence | Sales Analytics  
+**Primary Tool:** Microsoft Excel  
+**Project Type:** Portfolio Project
+
